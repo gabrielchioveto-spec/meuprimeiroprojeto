@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #666;
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.nav-buttons a {
+  margin-left: 10px;
+  padding: 6px 10px;
+  background-color: #ddd;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.nav-buttons a:hover {
+  background-color: #bbb;
+}
+
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.produto {
+  background-color: #3d3d3d; /* Fundo do card */
+  width: 260px;  /* bem mais largo */
+  height: 350px; /* bem mais alto */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.produto img {
+  width: 92%;    /* imagem quase do tamanho do card */
+  height: 220px; /* imagem bem alta */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.produto p {
+  margin-top: 14px;
+  font-size: 16px;
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+}
+
+footer {
+  background-color: #2b2b2b;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+header {
+  background-color: #2b2b2b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 22px;
+}
+
+.voltar {
+  color: white;
+  text-decoration: none;
+  background-color: #444;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.voltar:hover {
+  background-color: #666;
+}
+
+.produto-detalhe {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.produto-detalhe .imagem img {
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.info {
+  max-width: 400px;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00ff99;
+  margin-bottom: 15px;
+}
+
+.descricao {
+  margin-bottom: 20px;
+}
+
+.comprar {
+  background-color: #00c853;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comprar:hover {
+  background-color: #009624;
+}
+
+footer {
+  background-color: #2b2b2b;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
